@@ -1,25 +1,19 @@
-# Hey there, I'm Khaled Hani 👋 
+# Khaled Hani
 
-### 🚀 High-Performance Software Engineer & Security Enthusiast
-I specialize in building ultra-lightweight, high-performance CLI tools, security scanners, and system-level applications. Passionate about Go, buffer management, memory optimization, and open-source contribution.
-
----
-
-### 🛠️ Tech Stack & Tools
-- **Languages:** ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white)
-- **Specialties:** DevSecOps, Android/Termux Ecosystem, High-Performance I/O, Regular Expressions Optimization.
-- **Tools & Environments:** Linux, Termux, Git, GitHub Actions, Docker.
+Software developer focusing on Go, memory optimization, and system utilities.
 
 ---
 
-### 🌟 Featured Open-Source Impacts
-- **[Sentinel](https://github.com/sentinel-cli/sentinel):** Author of the zero-allocation, chunk-based Git secret scanner. 10x memory reduction compared to standard tooling. Available on GitHub Marketplace.
-- **Termux Contributor:** Developed and optimized native RTL & Arabic/Persian/Urdu cursive shaping support with layout caching for the official Termux application.
+## Featured Project
 
----
+### Sentinel
+A high-performance Git secret scanner and pre-commit hook written in Go, optimized for low-resource environments.
 
-### 📊 GitHub Stats
-<p align="left">
-<img src="https://github-readme-stats.vercel.app/api?username=muslim-kh09&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" alt="Khaled's GitHub Stats" height="180px"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=muslim-kh09&layout=compact&theme=tokyonight" alt="Top Languages" height="180px"/>
-</p>
+* **Repository:** [sentinel-cli/sentinel](https://github.com/sentinel-cli/sentinel)
+* **Availability:** [GitHub Marketplace Action](https://github.com/marketplace/actions/sentinel-git-secrets-scanner)
+
+#### Technical Specifications
+* **Architecture:** Implements an 8 MB chunk-based streaming reader to ensure a flat memory footprint regardless of file size.
+* **Memory Management:** Designed with a zero-allocation-per-line scanning mechanism to eliminate heap overhead.
+* **Analysis Capabilities:** Supports deep historical scanning (`--history`) via Git object traversal and false-positive suppression logic.
+* **Integrations:** Outputs data natively in SARIF and JSON formats, making it compatible with GitHub Code Scanning and standard CI/CD pipelines.
