@@ -14,5 +14,5 @@ Systems and high-performance software development.
 ### Sentinel
 A zero-allocation, chunk-based Git secret scanner and pre-commit hook written in Go. Designed for flat memory scaling and native Android/Termux support.
 
-* **Repository:** [github.com/sentinel-cli/sentinel](https://github.com/sentinel-cli/sentinel)
-* **Marketplace:** [GitHub Marketplace Action](https://github.com/marketplace/actions/sentinel-git-secrets-scanner)
+* **Repository:** [github.com/crenoxhq/crenox](https://github.com/crenoxhq/crenox)
+* **Marketplace:** [GitHub Marketplace Action](https://github.com/marketplace/actions/crenox-git-secrets-scanner)
