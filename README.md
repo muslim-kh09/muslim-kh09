@@ -11,7 +11,7 @@ Systems and high-performance software development.
 
 ## Core Projects
 
-### Sentinel
+### Crenox 
 A zero-allocation, chunk-based Git secret scanner and pre-commit hook written in Go. Designed for flat memory scaling and native Android/Termux support.
 
 * **Repository:** [github.com/crenoxhq/crenox](https://github.com/crenoxhq/crenox)
